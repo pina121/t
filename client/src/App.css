@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a237e 0%, #0d47a1 100%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.MuiPaper-root {
+  transition: all 0.3s ease-in-out;
+}
+
+.MuiPaper-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+.MuiSlider-root {
+  color: #90caf9;
+}
+
+.MuiSlider-thumb {
+  background-color: #90caf9;
+}
+
+.MuiSlider-thumb:hover {
+  background-color: #64b5f6;
+}
+
+.MuiButton-contained {
+  transition: all 0.3s ease-in-out;
+}
+
+.MuiButton-contained:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(144, 202, 249, 0.4);
+}
+
+.MuiTextField-root .MuiOutlinedInput-root {
+  color: #fff;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.MuiTextField-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #90caf9;
+}
+
+.MuiTextField-root .MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.MuiTextField-root .MuiInputLabel-root.Mui-focused {
+  color: #90caf9;
+}
+
+@media (max-width: 600px) {
+  .MuiContainer-root {
+    padding: 16px;
+  }
+  
+  .MuiTypography-h3 {
+    font-size: 2rem;
+  }
+} 
